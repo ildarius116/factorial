@@ -1,6 +1,8 @@
 import telebot
 from typing import Any
+import sys
 
+sys.set_int_max_str_digits(0)
 BOT_TOKEN = "6430286190:AAFeBeVbbR54kwz8JhcLSa-1LfblsiayBMM"
 bot = telebot.TeleBot(BOT_TOKEN)
 f_cache = {1: 1}
